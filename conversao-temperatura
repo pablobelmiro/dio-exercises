@@ -1,0 +1,11 @@
+package main
+
+import "fmt"
+
+var fahrenheit int = 273
+
+func main() {
+	kelvin := 200
+	celsius := kelvin - fahrenheit
+	fmt.Printf("kelvin: %d\ncelsius celsius: %d\n", kelvin, celsius)
+}
